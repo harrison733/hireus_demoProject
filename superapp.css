@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_bar{
+    position: fixed;
+    width: 100%;
+}
+.nav_bar,
+.brand_logo,
+.links ul{
+    display: flex;
+}
+.nav_bar{
+    justify-content: space-between;
+}
+.nav_bar{
+    background-color: rgb(98, 98, 102);
+}
+.brand_logo img{
+    width: 100px;
+}
+.brand_logo p{
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+}
+.links ul{
+    list-style: none;
+    gap: 35px;
+    padding: 30px;
+}
+.links ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* first section begins */
+/* .top_brand_logo{
+    display: flex;
+    background-color: rgb(98, 98, 102);
+    position: fixed;
+    width: 100%;
+}
+.top_brand_logo img{
+    width: 100px;
+}
+.top_brand_logo p{
+    padding: 15px 0;
+    font-size: 24px;
+    color: white;
+} */
+.application_1{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+.one_app{
+    padding: 100px;
+}
+.oneapp_img img{
+    width: 600px;
+    height: 100vh;
+}
+.header{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+.download{
+    display: flex;
+    gap: 20px;
+}
+.app_store,
+.play_store{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 12px;
+    /* background-color: black; */
+}
+.fa-app-store-ios,
+.fa-google-play{
+    font-size: 45px;
+    padding: 0 5px;
+}
+.fa-app-store-ios{
+    color: blue;
+}
+.fa-google-play{
+    color: rgb(8, 245, 8);
+}
+.text{
+    padding: 10px;
+}
+.text p{
+    font-size: 10px;
+    color: white;
+}
+.text h4{
+    color: white;
+}
+/* first section ends */
+
+/* content video section begins */
+.con_vid_section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(98, 98, 102);
+}
+.header_2 h3{
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+}
+.video_section{
+    display: flex;
+    gap: 70px;
+}
+.video video{
+    width: 400px;
+}
+/* ends here */
+
+/* content image section */
+.con_img_section{
+    height: 130vh;
+    width: 100%;
+    background-color: gray;
+}
+.header_3 h3{
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+.image img{
+    width: 449px;
+}
+.image_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* ends here */
+
+/* application_2 begins */
+.application_2{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(98, 98, 102);
+}
+.header_4 h3{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+.header_4 h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+/* ends here */
+
